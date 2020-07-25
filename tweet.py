@@ -22,7 +22,7 @@ def News():
     # Specify the query and number of returns
     parameters = {
         'q': 'corona', # query phrase
-        'from': today,
+        'from': times2,
         'to': times,
         'pageSize': 20,  # maximum is 100
         'apiKey': secret # your own API key
